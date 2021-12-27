@@ -1,0 +1,10 @@
+{
+    "OS": "Windows-10-10.0.22000-SP0",
+    "OS release": "10",
+    "OS Version": "10.0.22000",
+    "OS Arhitecture": [
+        "64bit",
+        "WindowsPE"
+    ],
+    "Processor": "Intel64 Family 6 Model 142 Stepping 10, GenuineIntel"
+}

@@ -1,0 +1,32 @@
+Test 1: - Se testeaza functionalitatea importarii librariilor pe distributiile selectate spre a fi
+	testate la testul anterior.
+
+Test 2: - Se doreste cautarea unui path inexistent si se urmareste rezultatul. Aplicatia trebuie
+	sa returneze o eroare, folderul fiind inexistent.
+
+Test 3: - Se realizeaza rularea aplicatiei in mai multe etape si se verifica daca aplicatia suprascrie
+	aceleasi date in timpul acestui proces. 
+
+Test 4: - Se doreste cautarea unor fisiere dintr-un path / folder "gol" si se verifica daca aplicatia va scrie
+	date in acest sens (folderul fiind empty, aceasta nu va scrie).
+
+Test 5: - Se doreste cautarea unui path existent ce contine files si se verifica daca acestea sunt scrise in
+	file-ul ce are extensia "json". 
+
+Test 6: - Analizand functia "getOsInfo()", se verifica daca aceasta returneaza corect si complet informatiile despre
+	OS pe distributii diferite.
+
+Test 7: - Se analizeaza functia "sizeOf()" avand un singur parametru si se verifica daca aceasta returneaza corect
+	size-ul unui file.
+
+Test 8: - Se analizeaza functia "timeConverter()" avand un singur parametru si se verifica daca aceasta returneaza corect
+	data si ora la care s-a creat file-ul extras.
+
+Test 9: - Se verifica daca datele sunt extrase corect din path-ul aferent file-ului si se verifica daca aceastea sunt
+	trimise in formatul cerut catre fisierul de tip "json".
+
+Test 10: - Aplicatia curenta ruleaza pe Windows 10 x64. Se verifica daca aceasta functioneaza corect
+	pe alte distributii.
+
+- Suita aceasta de teste va fi efectuata pe mai multe sisteme de operare pentru a verifica functionalitatea / compatibilitatea
+  acesteia pe fiecare sistem.
